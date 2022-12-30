@@ -47,12 +47,12 @@ Github블로그를 선택하게 되었다! 이제 Github블로그를 작성하�
 [Ruby install](https://rubyinstaller.org/downloads/)
 해당 링크에 들어가서 아래에 체크해놓은 파일을 설치한다.<br>
 <!-- <img src="assets/image/Jekll-minimal_mistakes/rubyinstaller.png" title="rubyinstaller"> -->
-![rubyinstaller](./assets/image/Jekll-minimal_mistakes/start_Ruby.png)
+![rubyinstaller](/assets/image/Jekll-minimal_mistakes/start_Ruby.png)
 
 <h4>Jekll 설치</h4>
 Ruby 설치가 끝나면 Jekll을 설치해야한다.<br> 
 Jekll을 설치하기 위해서는 방금 설치한 Start Command Prompt with Ruby를 실행한다.<br>
-![start_Ruby](./assets/image/Jekll-minimal_mistakes/start_Ruby.png)<br><br>
+![start_Ruby](/assets/image/Jekll-minimal_mistakes/start_Ruby.png)<br><br>
 Ruby를 실행 후 CMD창에 아래와 같은 명령어를 입력해준다.
 
 ```
@@ -65,9 +65,9 @@ Github블로그에는 여러가지 테마가 존재하는데 나는 내가 쉽�
 
 <h4>minimal mistakes 설치</h4>
 먼저 minimal mistakes를 사용하기 위해서는 [minimal mistakes github link](https://github.com/mmistakes/minimal-mistakes)에 들어간다.<br>
-![minimal_mistakes_github_link](./assets/image/Jekll-minimal_mistakes/minimal_mistakes_github_link.png)<br><br>
+![minimal_mistakes_github_link](/assets/image/Jekll-minimal_mistakes/minimal_mistakes_github_link.png)<br><br>
 위의 이미지에 체크한 부분을 눌려 테마를 다운로드한다. 테마를 다운로드한 후 압축을 풀면 아래와 같은 파일들을 확인할 수 있다.<br>
-![minimal_mistakes_file](./assets/image/Jekll-minimal_mistakes/minimal_mistakes_file.png)<br><br>
+![minimal_mistakes_file](/assets/image/Jekll-minimal_mistakes/minimal_mistakes_file.png)<br><br>
 아래의 파일 목록은 필요 없으므로 삭제해 주도록 하자.
 - .github 
 - test
@@ -81,13 +81,13 @@ Github블로그에는 여러가지 테마가 존재하는데 나는 내가 쉽�
 
 삭제를 진행한 후 docs 내부의 _pages폴더를 최상위로 이동준다. 이동 시켜주고 나면 아래와 같은 구조를 가지게 된다.<br>
 
-![minimal_mistakes_file_end](./assets/image/Jekll-minimal_mistakes/minimal_mistakes_file_end.png)<br><br>
+![minimal_mistakes_file_end](/assets/image/Jekll-minimal_mistakes/minimal_mistakes_file_end.png)<br><br>
 
 이제 minimal mistakes테마를 설치 하는 과정이 끝났다. 이제 블로그를 사용하기 위한 베이스 작업은 끝났다! 이제 github블로그를 만들기 위해 Github에 Repository를 만들어 보자.<br><br>
 
 <h2>03. Github Repository</h2>
 이 부분은 간단하게 지금까지 Repo를 만들던 형식 그대로 Repo의 이름만 <mark>자신의githubid</mark>.github.io 로 만들면 끝이다. 아래를 참고해서 만들어보자.
-![github_create_repo](./assets/image/Jekll-minimal_mistakes/github_create_repo.png)<br><br>
+![github_create_repo](/assets/image/Jekll-minimal_mistakes/github_create_repo.png)<br><br>
 나는 이미 Repo를 생성했기 때문에 오류가 나지만 처음 생성하면 오류가 나지 않는다.<br>
 Repo를 생성했으면 위에 설치한 minimal mistakes 테마를 push 하면 된다.<br><br>
 
@@ -95,7 +95,7 @@ Repo를 생성했으면 위에 설치한 minimal mistakes 테마를 push 하면 
 이제 마지막이지만 내가 하면서 헤맸던 부분이다. <br>
 포스팅을 할 때 Github에 바로 push 한 뒤 github.io 링크로 확인하는 방법도 있지만 push된 이후 적용이 되기까지 약간의 시간이 필요하고 내가 원하는 방향으로 나오지 않았을 때 수정을 하면서 계속해서 commit을 진행해야 할 수 있기 때문에 로컬 서버로 먼저 확인 후 Github에 push 하는 것이 좋다.<br><br>
 
-![localseverfile](./assets/image/Jekll-minimal_mistakes/localseverfile.png)<br><br>
+![localseverfile](/assets/image/Jekll-minimal_mistakes/localseverfile.png)<br><br>
 위가 현재 나의 repo폴더이다. 해당 위치에서 CMD창을 켜서 아래의 명령어를 입력해준다.<br>
 ```
 gem install bundler
@@ -103,16 +103,16 @@ bundle exec jekyll serve
 ```
 명령어를 입력해주면 jekyll-cache 과 Gemfile.lock 파일이 생성된다.<br>
 아래와 같이 나온다면 서버가 정상적으로 열린 것이다!<br>
-![cmdend](./assets/image/Jekll-minimal_mistakes/cmdend.png)<br>
+![cmdend](/assets/image/Jekll-minimal_mistakes/cmdend.png)<br>
 
 
 만약 아래와 같은 오류가 발생한다면<br>
-![cmderror](./assets/image/Jekll-minimal_mistakes/cmderror.png)<br>
+![cmderror](/assets/image/Jekll-minimal_mistakes/cmderror.png)<br>
 
 최상위 폴더에 있는 _pages 폴더에 파일들을 전부 삭제 후 다시 명령어를 입력하면 정상적으로 동작할 것이다.<br><br>
 
 서버가 정상적으로 열렸다면, [http://localhost:4000/](http://localhost:4000/)으로 바로 확인이 가능하다!
-![end](./assets/image/Jekll-minimal_mistakes/end.png)
+![end](/assets/image/Jekll-minimal_mistakes/end.png)
 
 나는 블로그를 이미 만든 후 포스팅을 했기때문에 나와는 다르게 나올것이다.<br><br>
 
