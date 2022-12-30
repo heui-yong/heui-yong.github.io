@@ -12,21 +12,21 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "히용이의 개발 블로그"
-title_separator          : "-"
+title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "이희용(Lee HeuiYong)"
-description              : "만들도록 노력해보기"
+description              : "Yong Log"
 url                      : "https://heui-yong.github.io/"
 baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
 repository               : "https://github.com/heui-yong/heui-yong.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           :  "안드로이드" 
+teaser                   : "/assets/image/profile/yonglog.png"
+# logo                     : "/assets/image/profile/yonglog.png"
+masthead_title           : "Yong Log"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Lee HeuiYong"
   avatar           : "/assets/image/profile/memoji.png"
-  bio              : "신입개발자에요"
-  location         : "Republic of Korea"
+  bio              : " "
+  # location         : " "
   email            :
   links:
     - label: "Email"

@@ -23,18 +23,18 @@ last_modified_at: 2022-12-30T17:33:00-05:00
 
   <h4>장점</h4>
 
-  1. <mark>높은 자유도</mark><br>
+  1. <mark style='background-color: #fff5b1'>높은 자유도</mark><br>
       블로그에 포스팅 하는 게시물은 물론이고 블로그의 페이지 자체를 내가 원하는 대로 꾸밀 수 있다. 그리고 기능적인 부분도 내가 직접 추가할 수 있는 부분들이 있다는 것에 매력을 느꼈다.<br>
-  2. <mark>다른 사람 신경을 안써도 된다.</mark><br>
+  2. <mark style='background-color: #fff5b1'>다른 사람 신경을 안써도 된다.</mark><br>
       만들고나면 따로 구독자나 나의 블로그를 보는 사람들 걱정은 하지 않아도 된다. 그냥 내가 기억하고 싶은 부분이나 정리하는 용도로 쓰기가 좋다. ex) 개발일지, 일상
-  3. <mark>광고로 수입 창출이 가능하다.</mark><br>
+  3. <mark style='background-color: #fff5b1'>광고로 수입 창출이 가능하다.</mark><br>
       근데 이부분은 내가 사용할 지는 잘 모르겠다..
 
   <h4>단점</h4>
 
-  1. <mark>높은 진입장벽</mark><br>
+  1. <mark style='background-color: #fff5b1'>높은 진입장벽</mark><br>
       나도 블로그를 만들 때 이 부분이 너무 힘들었다. 블로그를 사용하기 위해서 따로 설치도 해야 하며, 세팅도 어려웠다. 그리고 오류를 검색해도 잘 나오지 않았고, 따로 마크다운을 몰라 5-6시간 정도 헤맨 것 같다.
-  2. <mark>높은 자유도</mark><br>
+  2. <mark style='background-color: #fff5b1'>높은 자유도</mark><br>
       이 부분이 큰 장점이기도 하지만 큰 단점이기도 하다. 엄청난 자유도 덕분에 디자인을 잘 하지 못한다면 누군가가 만든 테마를 사용해야 하는데, 그 역시 누가 코드로 만든 것이기 때문에 내가 원하는 방향으로 변경하기 위해서는 어느 정도의 지식이 필요하다.
 
 이러한 장단점들이 있어 고민을 하다가 높은 자유도와 정리하기 위해 만드는 블로그이기 때문에
@@ -86,7 +86,7 @@ Github블로그에는 여러가지 테마가 존재하는데 나는 내가 쉽�
 이제 minimal mistakes테마를 설치 하는 과정이 끝났다. 이제 블로그를 사용하기 위한 베이스 작업은 끝났다! 이제 github블로그를 만들기 위해 Github에 Repository를 만들어 보자.<br><br>
 
 <h2>03. Github Repository</h2>
-이 부분은 간단하게 지금까지 Repo를 만들던 형식 그대로 Repo의 이름만 <mark>자신의githubid</mark>.github.io 로 만들면 끝이다. 아래를 참고해서 만들어보자.
+이 부분은 간단하게 지금까지 Repo를 만들던 형식 그대로 Repo의 이름만 <mark style='background-color: #fff5b1'>자신의githubid</mark>.github.io 로 만들면 끝이다. 아래를 참고해서 만들어보자.
 ![github_create_repo](/assets/image/Jekll-minimal_mistakes/github_create_repo.PNG)<br><br>
 나는 이미 Repo를 생성했기 때문에 오류가 나지만 처음 생성하면 오류가 나지 않는다.<br>
 Repo를 생성했으면 위에 설치한 minimal mistakes 테마를 push 하면 된다.<br><br>
