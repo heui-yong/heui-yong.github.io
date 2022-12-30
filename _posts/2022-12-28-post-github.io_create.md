@@ -47,7 +47,7 @@ Github블로그를 선택하게 되었다! 이제 Github블로그를 작성하�
 [Ruby install](https://rubyinstaller.org/downloads/)
 해당 링크에 들어가서 아래에 체크해놓은 파일을 설치한다.<br>
 <!-- <img src="assets/image/Jekll-minimal_mistakes/rubyinstaller.png" title="rubyinstaller"> -->
-![rubyinstaller](/assets/image/Jekll-minimal_mistakes/rubyinstaller.png)
+![rubyinstaller](/assets/image/Jekll-minimal_mistakes/start_Ruby.png)
 
 <h4>Jekll 설치</h4>
 Ruby 설치가 끝나면 Jekll을 설치해야한다.<br> 
