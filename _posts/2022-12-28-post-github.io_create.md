@@ -2,7 +2,7 @@
 title:  "[Github Blog] Jekll - minimal mistakes"
 search: false
 categories: 
-  - github.io 생성
+  - GitHub Blog
 last_modified_at: 2022-12-30T17:33:00-05:00
 ---
 ```yaml

@@ -178,6 +178,8 @@
   align-items: center;
   min-height: $nav-height;
   background: $background-color;
+  font-weight: bold;
+  font-family: $sans-serif-narrow2;
 
   a {
     display: block;

@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "us"
 title                    : "히용이의 개발 블로그"
 title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "이희용(Lee HeuiYong)"
+name                     : "heuiyong"
 description              : "Yong Log"
 url                      : "https://heui-yong.github.io/"
 baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
@@ -104,34 +104,23 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lee HeuiYong"
+  # name             : "Lee HeuiYong"
   avatar           : "/assets/image/profile/memoji.png"
   bio              : " "
   # location         : " "
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:gusrnr9878@gmail.com
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/heui-yong"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/heui_yong/"
+    - label: "Android"
+      icon: "fab fa-fw fa"
+      url: "/"
+    - label: "Github Blog"
+      icon: "fab fa-fw fa"
+      url: "/categories/github-blog/"
 
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:gusrnr9878@gmail.com
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/heui-yong"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/heui_yong/"
+
 
 
 # Reading Files
@@ -279,5 +268,5 @@ defaults:
       type: pages
     values:
       layout: sigle
-      author_profile: true
+      author_profile: false
 

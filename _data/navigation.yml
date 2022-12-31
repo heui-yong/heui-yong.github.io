@@ -1,8 +1,17 @@
 # main links
 main:
-  - title: "Introduce"
+  - title: "Home"
+    url: /
+
+  - title: "About"
     url: /about/
-  - title: "Category"
-    url: /categories/
-  - title: "Tag"
-    url: /tags/
+
+  - title: "GitHub"
+    url: https://github.com/heui-yong
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "GitHub Blog"
+    url: /categories/github-blog/
+
