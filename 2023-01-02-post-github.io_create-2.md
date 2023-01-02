@@ -51,20 +51,18 @@ comments: true
   라벨과 테마를 설정하는 부분인데, 이 부분은 label에 Comment만 추가해주었다.<br><br>
 
   다 입력하면 아래와 같은 스크립트가 나오는데 해당 내용들을 _config.yml에 추가해준다.
-   ![rubyinstaller](/assets/image/Jekll-minimal_mistakes/Utterances-install-page-repo-end.PNG)<br>
+   ![rubyinstaller](/assets/image/Jekll-minimal_mistakes/Utterances-install-page-repo-end.PNG)<br><br>
+
+   <h4>_layout/post.html</h4>
+
    
-<h2>02. _config.yml</h2>
- 여기서 수정해야할 부분은 아래와 같다.<br>
+   
+   
+   
+   
 
- 1. repository : "YongLog-comments"
- 2. provider : "utterances" 
- 3. theme : "github-light"
- 4. issue_term : "pathname"
 
- 이렇게 수정을 하고 push를 진행하면 아래와 같이 정상적으로 댓글기능이 활성화 된것을 볼 수 있다!<br>
- ![rubyinstaller](/assets/image/Jekll-minimal_mistakes/Utterances-install-page-comment.PNG)<br>
 
-<h2>03. 검색</h2>
-
+  
 
 
