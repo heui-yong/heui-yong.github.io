@@ -23,7 +23,7 @@ name                     : "heuiyong"
 description              : "Yong Log"
 url                      : "https://heui-yong.github.io/"
 baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
-repository               : "https://github.com/heui-yong/YongLog-comments"
+repository               : "heui-yong/yonglog-comments"
 teaser                   : "/assets/image/profile/yonglog.png"
 # logo                     : "/assets/image/profile/yonglog.png"
 masthead_title           : "Yong Log"
