@@ -4,6 +4,7 @@ search: false
 categories: 
   - GitHub Blog
 last_modified_at: 2022-12-30T17:33:00-05:00
+comments: true 
 ---
 ```yaml
 📌 Windows 10 사용
