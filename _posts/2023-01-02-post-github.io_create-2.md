@@ -104,8 +104,15 @@ comments: true
 <script src="https://gist.github.com/heui-yong/926743e1b8a651e4195e21aa6be5a95e.js"></script>
 robots.txt를 생성 후 위와 같은 위치에 넣어준다.
 
+<h3>Sitemap.xml 등록</h3>
 
+![rubyinstaller](/assets/image/Jekll-minimal_mistakes/Google_search_console-step5.PNG)
 
+google search console에서 sitemaps에 들어가서 생성한 sitemap.xml을 제출한다.<br>
+이러면 구글 검색기능이 추가가 되었다! 
+
+<h3>결과 확인</h3>
+나중에 검색이 되면 추가할 예정
     
 
 
