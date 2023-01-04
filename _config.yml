@@ -112,7 +112,7 @@ author:
   links:
     - label: "Android"
       icon: "fab fa-fw fa"
-      url: "/"
+      url: "/categories/Android"
     - label: "Github Blog"
       icon: "fab fa-fw fa"
       url: "/categories/github-blog/"
