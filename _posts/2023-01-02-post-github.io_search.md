@@ -112,7 +112,8 @@ google search console에서 sitemaps에 들어가서 생성한 sitemap.xml을 �
 이러면 구글 검색기능이 추가가 되었다! 
 
 <h3>결과 확인</h3>
-나중에 검색이 되면 추가할 예정
+
+![search_end](/assets/image/Jekll-minimal_mistakes/search_end.PNG)
     
 
 
