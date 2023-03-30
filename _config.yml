@@ -116,6 +116,9 @@ author:
     - label: "Github Blog"
       icon: "fab fa-fw fa"
       url: "/categories/github-blog/"
+    - label: "Flutter"
+      icon: "fab fa-fw fa"
+      url: "/categories/flutter/"
 
 # Site Footer
 footer:
