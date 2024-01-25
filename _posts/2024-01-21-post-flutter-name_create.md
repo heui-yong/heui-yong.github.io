@@ -26,7 +26,7 @@ comments: true
   하지만 이번 프로젝트가 끝난 후 시간이 생기게 되어 다시 블로그를 작성할 수 있게되었다! <br>
   오늘은 아래 플러터 공식 홈페이지에 있는 codelab을 따라서 만들어 볼 것이다. <br>
   이번에는 codelab을 따라하는 것이다보니 따로 코드는 올리지 않을 것이다.<br>
-  [codelab 주소 클릭!](https://codelabs.developers.google.com/codelabs/flutter-codelab-first?hl=ko#0)
+  [<mark style='background-color: #fff5b1'> codelab 주소 클릭!</mark>](https://codelabs.developers.google.com/codelabs/flutter-codelab-first?hl=ko#0)
   
 
 <h2>구성</h2>
