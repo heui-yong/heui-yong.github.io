@@ -3,7 +3,7 @@ title:  "[Flutter] Inherited Widget"
 search: false
 categories: 
   - Flutter
-last_modified_at: 2024-02-04T10:40:00-05:00
+last_modified_at: 2024-02-05T13:18:00-05:00
 comments: true 
 ---
 ```yaml
@@ -49,10 +49,14 @@ comments: true
   먼저 Inherited Widget을 사용하기 위해 아래처럼 StatefulWidget 위젯을 생성하였다.
   <script src="https://gist.github.com/heui-yong/3a3fb95580981cebfe4dc13dfd5be262.js"></script>
 
+  addToList를 통해 선택한 체크박스의 id를 checkList에 넣어주고 <mark style='background-color: #fff5b1'>copyWith</mark> 메소드를 통해 상태를 변경한 새 인스턴스를 생성한다. removeToList는 체크 박스 해제 시 checkList에 해당 id를 삭제해주고 나머지는 동일하다. 이렇게 StatefulWidget을 생성한 뒤 최상단을 아래 코드처럼 생성한 위젯으로 감싸면 사용이 가능하다.<script src="https://gist.github.com/heui-yong/354dbc9ad213b9aa0c2a09872f1ba4b5.js"></script>
+
+  접근을 할 경우는 위에서 말한 것 처럼 of메소드를 사용해서 접근한다. 
+  <script src="https://gist.github.com/heui-yong/47a7f00b4b11b78f38d9fc980758102e.js"></script>
   
 
 <h2>끝으로..</h2>
-  오늘은 PageView에 애니메이션을 주는 방법에 대해 알아보았다. 딱히 어려운 코드는 아니지만 알고있으면 언젠간 쓸 일이 있을 것 같아 정리했다.<br>
+  오늘은 Inherited Widget에 대해서 알아보았다. 코드가 길어 복잡해 보일 수 있지만 차근차근 따라하면 어렵지 않게 Inherited Widget을 사용할 수 있을 것이다. 나는 Inherited Widget을 학습할 때 공식홈페이지의 codelab을 보고 공부하였다. 시간이 괜찮다면 공식 홈페이지의 codelab에서 Inherited Widget에 대해 자세하게 알아보는것도 추천한다!<br>
   끄읕..!
 
 
