@@ -55,7 +55,7 @@ comments: true
 <h2>http로 API 결과 받아오기</h2>
  아래 코드를 사용해서 결과 값을 가지고 올 수 있다. 
 <script src="https://gist.github.com/heui-yong/9f6cd0c69c8780228cbee7c9b324b2f8.js"></script>
-먼저 baseUrl은 내가 github에 올린 json의 url이다. 그리고 fetchHomeInfo에서 전달되는 값을 비동기로 받기 위해서 fetchHomeInfo함수를 async로 만들어 주었다. 그리고 response 변수가 await를 통해 비동기 처리 요청 후 결과가 올 때까지 기다린다. 이후 결과가 오게되면 response.statusCode가 200일때 응답이 성공적으로 올 경우기때문에 조건을 걸어주었다. 응답받은 json을 list형식으로 변환해준다. 이후 추가한 리스트를 반환해준다. 
+먼저 baseUrl은 내가 github에 올린 json의 url이다. 그리고 fetchHomeInfo에서 전달되는 값을 비동기로 받기 위해서 fetchHomeInfo함수를 <mark style='background-color: #fff5b1'>async</mark>로 만들어 주었다. 그리고 response 변수가 await를 통해 비동기 처리 요청 후 결과가 올 때까지 기다린다. 이후 결과가 오게되면 <mark style='background-color: #fff5b1'>response.statusCode</mark>가 200일때 응답이 성공적으로 올 경우기때문에 조건을 걸어주었다. 응답받은 json을 list형식으로 변환해준다. 이후 추가한 리스트를 반환해준다. 
 
 <h2>받아온 데이터 사용</h2>
   이제 위에서 받아온 데이터를 사용하는 방법을 알아보자. 아래 코드를 확인해보자.<br>
@@ -72,7 +72,7 @@ comments: true
   return CircularProgressIndicator()은 리스트가 불러올 동안 보여주는 화면이다.
 
 <h2>끝으로..</h2>
-  오늘은 실무에서는 데이터를 항상 서버에서 받아오기에 필수적으로 알고있어야하는 http통신을 알아보았다. 아직 플러터를 학습한지 얼마안되어 이 방법이 맞는지는 잘 모르겠지만, 일단 정리해보기 위해 작성하였다. 추후 더 좋은 방법을 알게된다면 수정해서 올리도록하겠다. 
+  오늘은 실무에서는 데이터를 항상 서버에서 받아오기에 필수적으로 알고있어야하는 http통신을 알아보았다. 아직 플러터를 학습한지 얼마안되어 이 방법이 맞는지는 잘 모르겠지만, 일단 정리해보기 위해 작성하였다. 추후 더 좋은 방법을 알게된다면 수정해서 올리도록하겠다.<br>
   끄읕..!
 
 
