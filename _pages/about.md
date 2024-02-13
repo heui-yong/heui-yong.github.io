@@ -25,7 +25,7 @@ comments: false
         </li>
         <li>
           <a href="https://www.instagram.com/choiiis.dev/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">https://www.instagram.com/heui_yong/</span>
+            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">https://www.instagram.com/yong._.coding?igsh=MXhmN255MHEwMmQ1&utm_source=qr</span>
           </a>
         </li>
     </ul>
