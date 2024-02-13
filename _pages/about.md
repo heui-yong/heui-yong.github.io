@@ -13,18 +13,18 @@ comments: false
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name"> Busan, Korea</span>
         </li>
         <li>
-          <a href="https://github.com/choiiis" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://github.com/heui-yong" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label"> https://github.com/heui-yong</span>
           </a>
         </li>
         <li>
-          <a href="mailto:bemychoiiis@gmail.com">
+          <a href="mailto:gusrnr9878@gmail.com">
             <meta itemprop="email" content="bemychoiiis@gmail.com" />
             <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">gusrnr9878@gmail.com</span>
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/choiiis.dev/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://www.instagram.com/yong._.coding/" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">https://www.instagram.com/yong._.coding/</span>
           </a>
         </li>
