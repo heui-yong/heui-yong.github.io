@@ -38,7 +38,7 @@ comments: true
 
 <h2>사용 방법</h2>
   먼저 Provider 패키지를 사용하기 위해서는 <mark style='background-color: #fff5b1'>pubspec.yaml</mark>에 Provider 패키지를 추가해준다. 추가 방법은 아래 이미지를 참고하자.<br>
-  ![flutter-](/assets/image/flutter_provider/flutter_provider_2.png) <br><br>
+  ![flutter_provider_1](/assets/image/flutter_provider/flutter_provider_1.png) <br><br>
   패키지를 추가한 뒤 아래와 같이 모델클래스를 만들어 준다.
 <script src="https://gist.github.com/heui-yong/fa578e29d3c5819b16b5732fcffea5d6.js"></script>
 
