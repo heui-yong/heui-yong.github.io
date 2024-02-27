@@ -47,7 +47,8 @@ comments: true
   - 가변 상태 표현 : 데이터 공급자의 가변 상태를 추적
   - 데이터 변경 알림 : 데이터가 변경될 때 리스너에게 알림
 
-  <mark style='background-color: #fff5b1'>notifyListeners()</mark>는 ChangeNotifier 클래스의 메소드이다. 이 메서드를 호출하면 데이터 공급자에 등록된 모든 리스너에게 데이터 변경 사항을 알린다. 리스너의 종류는 아래와 같다.<br>
+  <mark style='background-color: #fff5b1'>notifyListeners()</mark>는 ChangeNotifier 클래스의 메소드이다. 이 메서드를 호출하면 데이터 공급자에 등록된 모든 리스너에게 데이터 변경 사항을 알린다.<br>
+  이제 Provider를 사용하는 방법에 대해서 알아보자.
 
   >- watch : 인스턴스의 변경에 따라 위젯을 자동으로 다시 빌드하지만 필요 없는 위젯까지 다시 빌드될 수 있음
   >- select : 인스턴스의 속성만 선택하여 리턴할 수 있어 불필요한 리빌드를 방지할 수 있음
@@ -56,7 +57,7 @@ comments: true
    - Provider 위젯의 하위 위젯에서 Provider가 관리하는 데이터에 접근하고 위젯을 빌드하는 데 사용
    - watch, select, read와 달리 리스너 기능을 내장하고 있어 데이터 변경에 따라 위젯을 자동으로 다시 빌드
 
-  이제 위 리스너를 사용하는 방법을 알아보자. 내가 만든 예제 코드에는 watch, select, read 세개를 사용하였다. 
+  내가 만든 예제 코드에는 watch, select, read 세개를 사용하였다. 
   <script src="https://gist.github.com/heui-yong/6f3f1fc6abc96a5dce1640c80c347c74.js"></script>
 
 <h2>끝으로..</h2>
