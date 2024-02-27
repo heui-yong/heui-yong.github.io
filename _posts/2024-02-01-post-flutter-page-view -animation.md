@@ -1,5 +1,5 @@
 ---
-title:  "[Flutter] PageView 에니메이션 사용해보기!"
+title:  "[Flutter] PageView 애니메이션 사용해보기!"
 search: false
 categories: 
   - Flutter
