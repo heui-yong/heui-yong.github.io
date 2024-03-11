@@ -113,12 +113,15 @@ author:
     - label: "Android"
       icon: "fab fa-fw fa"
       url: "/categories/Android"
-    - label: "Github Blog"
-      icon: "fab fa-fw fa"
-      url: "/categories/github-blog/"
     - label: "Flutter"
       icon: "fab fa-fw fa"
       url: "/categories/flutter/"
+    - label: "백준"
+      icon: "fab fa-fw fa"
+      url: "/categories/백준/"
+    - label: "Github Blog"
+      icon: "fab fa-fw fa"
+      url: "/categories/github-blog/"
 
 # Site Footer
 footer:
