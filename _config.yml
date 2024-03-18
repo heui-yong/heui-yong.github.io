@@ -107,18 +107,18 @@ author:
   # name             : "Lee HeuiYong"
   avatar           : "/assets/image/profile/memoji.png"
   bio              : ""
-  location         : "Busan, Korea"
+  location         : 
   email            :
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/heui-yong"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:gusrnr9878@gmail.com"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/heui_yong/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/heui-yong"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:gusrnr9878@gmail.com"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://www.instagram.com/heui_yong/"
       
     # - label: "Android"
     #   icon: "fab fa-fw fa"
