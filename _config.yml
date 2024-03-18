@@ -106,27 +106,36 @@ analytics:
 author:
   # name             : "Lee HeuiYong"
   avatar           : "/assets/image/profile/memoji.png"
-  bio              : " "
-  # location         : " "
+  bio              : ""
+  location         : "Busan, Korea"
   email            :
   links:
-    - label: "Android"
-      icon: "fab fa-fw fa"
-      url: "/categories/Android"
-    - label: "Flutter"
-      icon: "fab fa-fw fa"
-      url: "/categories/flutter/"
-    - label: "백준"
-      icon: "fab fa-fw fa"
-      url: "/categories/백준/"
-    - label: "Github Blog"
-      icon: "fab fa-fw fa"
-      url: "/categories/github-blog/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/heui-yong"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:gusrnr9878@gmail.com"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/heui_yong/"
+      
+    # - label: "Android"
+    #   icon: "fab fa-fw fa"
+    #   url: "/categories/Android"
+    # - label: "Flutter"
+    #   icon: "fab fa-fw fa"
+    #   url: "/categories/flutter/"
+    # - label: "백준"
+    #   icon: "fab fa-fw fa"
+    #   url: "/categories/백준/"
+    # - label: "Github Blog"
+    #   icon: "fab fa-fw fa"
+    #   url: "/categories/github-blog/"
 
 # Site Footer
 footer:
   links:
-
 
 
 # Reading Files
@@ -267,6 +276,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar_main: true
 
   # _pages
   - scope:
