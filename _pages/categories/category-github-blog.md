@@ -4,6 +4,7 @@ layout: category
 permalink: /categories/github-blog/
 author_profile: true
 taxonomy: GitHub Blog
+sidebar_main: true
 ---
 
 
