@@ -1,7 +1,7 @@
 ---
 title: "Flutter"
 layout: category
-permalink: /categories/flutter/
+permalink: /categories/Flutter/
 author_profile: true
 taxonomy: Flutter
 sidebar_main: true
