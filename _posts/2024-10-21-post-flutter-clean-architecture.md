@@ -2,7 +2,7 @@
 title: "[Flutter] 클린 아키텍처 쉽게 이해하기"
 search: false
 categories:
-  - Android
+  - Flutter
 last_modified_at: 2024-10-21T08:20:00-05:00
 comments: true
 ---
