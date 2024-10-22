@@ -3,7 +3,7 @@ title: "[Flutter] 클린 아키텍처 쉽게 이해하기"
 search: false
 categories:
   - Flutter
-last_modified_at: 2024-10-21T08:20:00-05:00
+last_modified_at: 2024-10-22T08:20:00-05:00
 comments: true
 ---
 
@@ -45,6 +45,7 @@ comments: true
 ### 레이어 간 의존성 흐름
 
 ![clean_architecture_1](/assets/image/flutter_clean_architecture/clean_architecture_1.webp)
+
 위 그림에서 볼 수 있듯이, 클린 아키텍처의 핵심은 **의존성 규칙(Dependency Rule)**입니다. 의존성은 반드시 안쪽으로만 흐르며, 바깥쪽 레이어는 안쪽 레이어를 참조할 수 없습니다. 이 구조 덕분에 UI 레이어는 비즈니스 로직을 직접 다루지 않고, Domain 레이어를 통해 접근합니다.
 
 ## 각 레이어 구현 예시
